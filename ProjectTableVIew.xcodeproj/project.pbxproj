@@ -14,6 +14,7 @@
 		B1866C2C20D7BD0900962B64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1866C2A20D7BD0900962B64 /* LaunchScreen.storyboard */; };
 		B1866C3720D7BD0900962B64 /* ProjectTableVIewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1866C3620D7BD0900962B64 /* ProjectTableVIewTests.swift */; };
 		B1866C4220D7BD0900962B64 /* ProjectTableVIewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1866C4120D7BD0900962B64 /* ProjectTableVIewUITests.swift */; };
+		B1866C5020D7C14000962B64 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1866C4F20D7C14000962B64 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B1866C3D20D7BD0900962B64 /* ProjectTableVIewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTableVIewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1866C4120D7BD0900962B64 /* ProjectTableVIewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableVIewUITests.swift; sourceTree = "<group>"; };
 		B1866C4320D7BD0900962B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1866C4F20D7C14000962B64 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B1866C2820D7BD0900962B64 /* Assets.xcassets */,
 				B1866C2A20D7BD0900962B64 /* LaunchScreen.storyboard */,
 				B1866C2D20D7BD0900962B64 /* Info.plist */,
+				B1866C4F20D7C14000962B64 /* TableViewCell.swift */,
 			);
 			path = ProjectTableVIew;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				B1866C2420D7BD0900962B64 /* ViewController.swift in Sources */,
 				B1866C2220D7BD0900962B64 /* AppDelegate.swift in Sources */,
+				B1866C5020D7C14000962B64 /* TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
